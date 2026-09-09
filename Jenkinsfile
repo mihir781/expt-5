@@ -57,7 +57,7 @@ pipeline {
 
                 echo Running Pytest Suite...
 
-                venv\\Scripts\\python.exe -m pytest tests/ -- junitxml=reports/junit-report.xml
+               venv\\Scripts\\python.exe -m pytest tests/ --junitxml=reports/junit-report.xml
 
                 '''
             }
