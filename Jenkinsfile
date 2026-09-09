@@ -6,7 +6,7 @@ pipeline {
 
         // Direct path to Python binary to avoid PATH inheritance issues on Windows Service agents
 
-        PYTHON_PATH = 'C:\\Users\\HP\\OneDrive\\Desktop\\devops 5\\python-selenium-jenkins\\venv\\Scripts\\python.exe'
+        PYTHON_PATH = 'C:\\Users\\HP\\AppData\\Local\\Python\\bin\\python.exe'
     }
 
     stages {
